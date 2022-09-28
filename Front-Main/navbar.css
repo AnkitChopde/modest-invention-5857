@@ -1,0 +1,324 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+              /* top section */
+
+#navbar{
+    width:100%;
+    height:55px;
+   
+    display:flex;
+    justify-content:space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   position:fixed;
+   top: 0;
+   right: 0;
+
+   
+
+}
+img{
+    margin-left:30px;
+    width:220px;
+    height:30px;
+    margin-top:12px;
+}
+#navbar div{
+    display:flex;
+    align-items:center;
+   
+    width:15%;
+    cursor:pointer;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+button{
+    padding:10px 17px;
+    margin-left:20px;
+    border-radius:5px;
+    background-color:white;
+    border-width:2px;
+    cursor:pointer;
+    font-weight:bold;
+}
+#navbar a:nth-child(1){
+  text-decoration: none;
+
+}
+                   /* BelowNav */
+#belowNav{
+    display:flex;
+    padding-top:90px;
+    width:100%;
+    height:473px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+#belowNav>div{
+    width:50%;
+    height:472px;
+    margin:auto;
+   
+}
+#belowNav img{
+    width:85%;
+    height:460px;
+    margin-right:10px;
+
+}
+.premium div{
+  width:80%;
+  height:50%;
+ 
+  margin:auto;
+  margin-top:70px;
+}
+h1{
+    font-size:50px;
+}
+.premium div p{
+    font-size:22px;
+    margin-top:-20px;
+    margin-bottom:33px;
+}
+.premium button{
+    padding:15px 60px;
+    margin-left:1px;
+    border-radius:5px;
+}
+
+.c{
+    background-color: rgb(255, 200, 0);
+    border:none;
+}
+.Sign{
+margin-left:25px;
+ }
+              /* Go To    */
+#do p{
+
+    font-size:20px;
+   
+    width:50%;
+    margin:auto;
+    margin-top:70px;
+    text-align:center;
+}
+span{
+    color:rgb(37, 119, 252)
+}
+#pricingHead{
+   
+    width:45%;
+    height:100px;
+    margin:auto;
+    text-align:center;
+    margin-top:50px;
+}
+h2{
+    font-size:30px;
+
+
+}
+#pricingHead p{
+    font-size:20px;
+    margin-top:-10px;
+}
+#pricingHead+div{
+    display:grid;
+    width:70%;
+    height:450px;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:450px;
+   margin:auto;
+   margin-top:60px;
+   gap:30px;
+   text-align:center;
+
+}
+
+#pricingHead+div div{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding-left:30px;
+    padding-right:30px;
+}
+#pricing h1{
+    font-size:20px;
+    border-radius: 10% 10% 48% 52% / 0% 0% 59% 55%  ;
+    width:100%;
+    background-color:blueviolet;
+   padding:30px;
+   margin-left:-30px;
+   margin-top:-3px;
+   color:white;
+
+}
+#pricing button{
+    padding:10px 25px;
+    border:none;
+    color:white;
+    margin-top:25px;
+}
+#pricing div:nth-child(1) h1,#pricing div:nth-child(1)
+button{
+    background-color: green;
+}
+
+#pricing div:nth-child(2) h1,
+#pricing div:nth-child(2)
+button{
+    background-color: rgb(40, 79, 187);
+}
+
+#pricing div:nth-child(3) h1,
+#pricing div:nth-child(3)
+button{
+    background-color: rgb(119, 6, 164);
+}
+#pricing div p{
+   
+    width:60%;
+    margin:auto;
+   margin-top:18px;
+    text-align:center;
+    line-height:25px;
+
+}
+#price{
+    font-size:34px;
+    font-weight:bold;
+}
+#pricingHead+div div:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:250px) and (max-width:550px){
+                 
+               /* top section */
+
+    #navbar{
+        width:100%;
+        height:55px;
+     }
+    #navbar div{
+        width:40%;    
+    }   
+             /* BelowNav */
+
+    #belowNav{
+        display:grid;
+        text-align:center;
+    }
+    #belowNav>div{
+        width:100%;
+        height:472px;
+        margin:auto;
+        padding-top:40px;
+    }
+    .premium div{
+        width:90%;
+        height:50%;
+        margin:auto;
+        margin-top:70px;
+      }
+    #belowNav img{
+        width:0;
+        height:0;
+     }
+    .premium button{
+        padding:20px 160px;
+        gap:10px;
+        display:flex;
+        text-decoration:wavy;
+     }
+    h1{
+        font-size:30px;
+        margin-bottom:40px;
+    }
+    .Sign{
+        margin-left:25px;
+    }
+
+                  /* Go To    */
+
+    #do p{
+         width:100%;
+
+    }
+    #pricingHead{
+   
+        width:100%;
+       
+    }
+
+    }
+
+   
+
+    
+
+
+
+@media all and (min-width:551px) and (max-width:900px){
+   
+                     /* top section */
+   
+   #navbar{
+        width:100%;
+        height:55px;
+    }
+    #navbar div{
+         width:20%;
+         display:flex;
+    }
+                     /* BelowNav */
+
+     #belowNav{
+        display:grid;
+        text-align:center;
+    }
+    #belowNav>div{
+        width:70%;
+        height:472px;
+        margin:auto;
+        padding-top:40px;
+    }
+    .premium div{
+        width:100%;
+        height:50%;
+        margin:auto;
+        margin-top:70px;
+      }
+    #belowNav img{
+        width:0;
+        height:0;
+    }
+    h1{
+        font-size:35px;
+        margin-bottom:40px;
+    }
+                 /* Go To    */
+
+    #do{
+       width:100%;
+           
+     }
+     #pricingHead{
+   
+        width:100%;
+       
+    }
+}
+
