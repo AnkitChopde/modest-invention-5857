@@ -1,0 +1,113 @@
+#signup{
+    width:30%;
+    height:350px;
+    margin:auto;
+    margin-top:160px;
+    font-family:"National 2","helvetica neue",helvetica;
+}
+img{
+    width:250px;
+    margin:auto;
+}
+#signup>div{
+    width:95%;
+    padding:25px;
+    margin-top:20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#signup span{
+color:#007FAA;
+font-weight:bold;
+}
+form input{
+    width:95%;
+    height:50px;
+    margin-top:8px;
+    border-radius:5px;
+    border:1px solid 
+}
+label{
+   font-weight:bold;
+   font-family:"National 2","helvetica neue",helvetica;
+}
+button{
+    width:97%;
+    height:50px;
+    border-radius:4px;
+    background-color:#329c70;
+    color:white;
+    border:0px;
+    cursor: pointer;
+    font-size:15px;
+    margin-top:30px;
+}
+button:hover{
+    background-color:#227251;
+}
+
+p{
+    font-family:"National 2","helvetica neue",helvetica;
+}   
+input:hover{
+    border-color:#227251;
+    border:2px solid green;
+}
+body>p{
+    text-align:right;
+    margin-top:200px;
+    font-size:13px;
+    color:#005977;
+    padding:8px
+}
+body>p>span{
+    padding:8px;
+}
+span:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+@media all and (min-width:250px) and (max-width:550px){
+    #signup{
+        width:95%;
+    }
+    form input{
+        width:95%;
+    }
+    button{
+        width:97%;
+       
+    }
+    body>p{
+        text-align:left;
+       width:100%;
+       text-align:justify;
+    }
+
+
+}
+
+
+
+
+
+
+@media all and (min-width:551px) and (max-width:900px){
+    #signup{
+        width:65%;
+    }
+    form input{
+        width:95%;;
+    }
+    button{
+        width:97%;
+       
+    }
+    body>p{
+        text-align:center;
+       width:65%;
+       margin:auto;
+       margin-top:30px;
+
+    }
+
+}
