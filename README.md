@@ -1,8 +1,6 @@
-# modest-invention-5857
-SurveyMonkey is an online service based platform where one can able to make surveys and this also provides different survey templates based on different services.
+# Survey_Monkey
 
 <p id="description">Survey Monkey -SurveyMonkey is an online service based platform where one can able to make surveys and this also provides different survey templates based on different services.
-
 
 Features:-
 User authentication.
