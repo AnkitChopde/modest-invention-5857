@@ -44,4 +44,4 @@ Create a new Pull Request.
   
 <h2>Deployed Link</h2>
 
-[Survey_Monkey](https://646f15647be7e71227f2f56b--glowing-rolypoly-3a6351.netlify.app/)
+[Survey_Monkey](https://glowing-rolypoly-3a6351.netlify.app/)
